@@ -1,0 +1,10 @@
+.st-link {
+    font-size: 16px;
+    font-family: $font-family-1;
+    line-height: 16px * 1.5;
+    color: $color-blue;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

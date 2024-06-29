@@ -1,0 +1,14 @@
+.st-icon-link-fa {
+    width: 18.2px;
+    height: 18.2px;
+
+    &__img {
+        color: chocolate;
+        transform: scale(1.46, 1.46);
+        transition: color 0.1s 0.15s;
+
+        &:hover {
+            color: rgb(159, 71, 8);
+        }
+    }
+}

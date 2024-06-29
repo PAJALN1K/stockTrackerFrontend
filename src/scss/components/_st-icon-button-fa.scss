@@ -1,0 +1,11 @@
+.st-icon-button-fa {
+    &__img {
+        color: chocolate;
+        transform: scale(1.46, 1.46);
+        transition: color 0.1s;
+
+        &:hover {
+            color: rgb(159, 71, 8);
+        }
+    }
+}

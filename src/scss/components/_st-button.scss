@@ -1,0 +1,41 @@
+.st-button {
+    // min-width: 150px;
+    // height: 40px;
+    padding: 10px 20px;
+    background-color: $color-blue;
+    border: 2px solid $color-blue;
+    color: $color-white;
+    border-radius: 3px;
+    box-sizing: border-box;
+
+    font-size: 16px;
+    font-family: $font-family-1;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+
+    transition:
+        background-color 0.35s,
+        border-color 0.35s,
+        transform 0.35s;
+
+    &:hover {
+        background-color: $color-blue-darker;
+        border-color: $color-blue-darker;
+    }
+
+    &--empty {
+        background-color: $color-white;
+        color: $color-blue;
+
+        transition:
+            background-color 0.35s,
+            border-color 0.35s,
+            transform 0.35s;
+
+        &:hover {
+            color: $color-white;
+            background-color: $color-blue;
+            border-color: $color-blue;
+        }
+    }
+}

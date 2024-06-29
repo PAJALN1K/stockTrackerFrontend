@@ -1,0 +1,54 @@
+.st-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &__field {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__name-label {
+        font-size: $font-size--h6;
+        font-family: $font-family-1;
+        line-height: $font-size--h6 * 1.5;
+        margin-bottom: 2px;
+    }
+
+    &__valid-icon {
+
+    }
+
+    &__invalid-icon {
+        
+    }
+
+    &__input {
+        padding: 5px 10px;
+        border: 2px solid $color-blue;
+        border-radius: 3px;
+        width: 320px;
+        margin-bottom: 10px;
+
+        font-size: 16px;
+        color: $color-black;
+        font-family: $font-family-1;
+        line-height: 16px * 1.5;
+    }
+
+    &__instructions {
+        font-size: 12px;
+        font-family: $font-family-1;
+        line-height: 12px * 1.5;
+        color: $color-light-grey;
+        width: 320px;
+    }
+
+    &__button {
+
+    }
+
+    &__error-msg {
+        
+    }
+}

@@ -1,0 +1,28 @@
+.footer-docs {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    &__header {
+        font-weight: bold;
+        color: $color-black-blue;
+        font-size: 18px;
+        letter-spacing: 0.6px;
+        margin-bottom: 2px;
+    }
+
+    &__link {
+        color: $color-cobalt;
+        font-size: 16px;
+
+        &:hover {
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-color: $color-cobalt;
+        }
+
+        &--dark {
+            color: #fff;
+        }
+    }
+}

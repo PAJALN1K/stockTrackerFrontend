@@ -1,0 +1,25 @@
+.header-nav {
+    padding-top: 4px;
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        gap: 21px;
+    }
+
+    &__link {
+        color: $color-blue-darker;
+        font-size: 15px;
+        font-family: $font-family-1;
+        font-weight: 600;
+        line-height: 15px * 1.5;
+        letter-spacing: 0.6px;
+
+        &:hover {
+            text-decoration: underline;
+            text-decoration-color: $color-blue;
+            text-decoration-thickness: 1.5px;
+            text-underline-offset: 3.5px;
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.company {
+    width: 100%;
+    border-radius: 2px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &:hover {
+        background-color: #e9ecef;
+    }
+
+    &__row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__name-label-link {
+        color: $color-black;
+        font-family: $font-family-1;
+        font-weight: bold;
+        font-size: 18px;
+
+        &:hover {
+            color: chocolate;
+            
+        }
+    }
+
+    &__buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    &__button {
+        background-color: none;
+    }
+
+    &__list {
+        padding-left: 10px;
+        font-size: 14px;
+        line-height: 14px * 1.5;
+        font-family: $font-family-1;
+        color: #495057;
+
+        display: flex;
+        flex-direction: column;
+        // gap: 3px;
+    }
+
+    &__pair {
+        display: flex;
+        gap: 3px;
+    }
+
+    &__term {
+        font-weight: bold;
+    }
+
+    &__description {
+        &--empty {
+            font-style: italic;
+        }
+    }
+}
