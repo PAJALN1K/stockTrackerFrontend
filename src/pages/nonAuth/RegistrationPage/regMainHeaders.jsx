@@ -1,13 +1,7 @@
 import MainHeader from "../../../components/layout/classic-layout/MainHeader";
 
-export const defaultMainHeader = (
-  <div className="main__row">
-    <MainHeader textContent="Регистрация" />
-  </div>
-);
+export const defaultMainHeader = <MainHeader textContent="Регистрация" />;
 
 export const successMainHeader = (
-  <div className="main__row">
-    <MainHeader textContent="Регистрация прошла успешно!" />
-  </div>
+  <MainHeader textContent="Регистрация прошла успешно!" />
 );

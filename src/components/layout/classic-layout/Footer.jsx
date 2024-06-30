@@ -1,16 +1,12 @@
-import Docs from "./Docs";
-import Socials from "./Socials";
+import FooterDocs from "./FooterDocs";
+import FooterSocials from "./FooterSocials";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container">
-        <div className="footer__column">
-          <Docs />
-        </div>
-        <div className="footer__column">
-          <Socials />
-        </div>
+        <FooterDocs />
+        <FooterSocials />
       </div>
     </footer>
   );

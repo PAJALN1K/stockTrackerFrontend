@@ -26,7 +26,7 @@ function styles() {
     .pipe(gulpclean())
     .pipe(concat("style.min.css"))
     .pipe(map.write("../sourcemaps/"))
-    .pipe(dest("src/css"))
+    // .pipe(dest("src/css"))
     .pipe(dest("public/css"))
     .pipe(browserSync.stream());
 }

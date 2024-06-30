@@ -9,7 +9,7 @@ const HomePage = () => {
   const forwardToLoginPage = useForwarding(LOGIN_URL);
 
   const presentationBlock = (
-    <div className="main__row presentation-block">
+    <div className="presentation-block">
       <div className="presentation-block__column">
         <h2 className="presentation-block__header">Система складского учёта</h2>
         <p className="presentation-block__desc">

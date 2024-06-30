@@ -17,13 +17,10 @@
         align-items: center;
         gap: 40px;
     }
-
-    &__row {
-        // width: 100%;
-    }
 }
 
 .presentation-block {
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -66,5 +63,7 @@
 
     &__img {
         height: 300px;
+        position: relative;
+        left: 12.2px;
     }
 }

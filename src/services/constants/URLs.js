@@ -1,7 +1,7 @@
 // common pages
 export const HOME_URL = "/";
-export const DOCS_URL = "/docs";
-export const NAV_URL = "/nav";
+export const HEADER_NAV_URL = "/header_nav";
+export const FOOTER_DOCS_URL = "/footer_docs";
 
 // non auth pages
 export const REGISTRATION_URL = "/registration";

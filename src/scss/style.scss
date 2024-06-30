@@ -1,10 +1,12 @@
 // abstracts
 @import "abstracts/variables";
+@import "abstracts/functions";
 
 // core
 @import "core/null-style";
 @import "core/hidden";
 @import "core/no-select";
+@import "core/selection";
 
 // layout
 @import "layout/root";
@@ -18,7 +20,7 @@
 @import "layout/classic-layout/main-header";
 @import "layout/classic-layout/footer";
 @import "layout/classic-layout/footer-docs";
-@import "layout/classic-layout/socials";
+@import "layout/classic-layout/footer-socials";
 
 // panel layout
 @import "layout/panel-layout/panel-layout";
@@ -31,6 +33,7 @@
 @import "layout/panel-layout/right-panel";
 
 // components
+@import "components/st-logo";
 @import "components/st-button";
 @import "components/st-form";
 @import "components/st-icon-button-fa";
