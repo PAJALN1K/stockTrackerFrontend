@@ -9,8 +9,8 @@ import CompaniesPage from "../pages/auth/CompaniesPage";
 import CompanyPage from "../pages/auth/CompanyPage";
 import {
   HOME_URL,
-  NAV_URL,
-  DOCS_URL,
+  HEADER_NAV_URL,
+  FOOTER_DOCS_URL,
   REGISTRATION_URL,
   LOGIN_URL,
   PROFILE_URL,
@@ -22,8 +22,8 @@ import {
 
 export const commonRoutes = [
   { path: HOME_URL, element: <HomePage /> },
-  { path: NAV_URL, element: <InDevelopmentPage /> },
-  { path: DOCS_URL, element: <InDevelopmentPage /> },
+  { path: HEADER_NAV_URL, element: <InDevelopmentPage /> },
+  { path: FOOTER_DOCS_URL, element: <InDevelopmentPage /> },
 ];
 
 export const nonAuthRoutes = [

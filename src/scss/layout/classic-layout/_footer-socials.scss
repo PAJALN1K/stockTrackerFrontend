@@ -1,4 +1,4 @@
-.socials {
+.footer-socials {
     display: flex;
     gap: 15px;
 
@@ -17,9 +17,9 @@
         width: 100%;
     }
 
-    &__img-path {
+    &__img-shape {
         fill: $color-cobalt;
-        transition: fill 0.3s;
+        transition: 0.3s;
 
         &:hover {
             fill: $color-blue-darker;

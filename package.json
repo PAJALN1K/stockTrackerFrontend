@@ -37,6 +37,7 @@
   "devDependencies": {
     "axios": "^1.7.2",
     "browser-sync": "^3.0.2",
+    "classnames": "^2.5.1",
     "cors": "^2.8.5",
     "gulp": "^5.0.0",
     "gulp-autoprefixer": "^8.0.0",

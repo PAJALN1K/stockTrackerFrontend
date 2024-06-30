@@ -4,7 +4,7 @@ import Main from "./Main";
 
 const ClassicLayout = ({ mainContent }) => {
   return (
-    <div className="stock-tracker-page stock-tracker-page--dark classic-layout">
+    <div className="stock-tracker-page classic-layout">
       <Header />
       <Main mainContent={mainContent} />
       <Footer />

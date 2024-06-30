@@ -1,14 +1,9 @@
 .footer {
     width: 100%;
     padding-top: 40px;
-    padding-bottom: 50px;
-
-    font-size: 14px;
-    font-family: $font-family-1;
-    color: $color-black;
-    background-color: $color-white;
-    background-color: #f0f7fd;
-    // border-top: $color-black 2px solid;
+    padding-bottom: 60px;
+    
+    background-color: $color-light-blue;
 
     &__container {
         width: 60%;
